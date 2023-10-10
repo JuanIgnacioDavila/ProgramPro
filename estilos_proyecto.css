@@ -1,0 +1,540 @@
+header,section,footer{ 
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	font-family: arial;
+
+	 }
+	 p{color: #ffffff; }
+	 body{
+	 	background-image: url(imagenes_proyecto/fondo.png);
+	 	background-attachment: fixed;
+	 }
+	 #imagen_principal{
+	 	height: 250px;
+	 	background-image: url(imagenes_proyecto/img_principal.jpg);
+	 	background-size: cover;
+	 }
+header{
+	height: 80px;
+	background-color: #000000;
+	position: sticky;    /*utilizo esta propiedad para que la cabecera se mueva a medida que bajo en la pagina*/
+	top: 0;              /*utilizo top cero para que se mantenga pegado al borde superiro de pantalla*/
+} 
+
+#nombre_de_marca{
+	background-color:  rgb(255, 255, 255,0);
+	height: 80px;
+	width: 410px;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+	color: #ffffff;
+}
+#botonera_principal{
+	background-color:rgb(255, 255, 255,0) ;
+	height: 80px;
+	width: 400px;
+	float: right;
+
+
+}
+#botonera_principal ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+
+
+}
+#botonera_principal ul li{
+	display: inline;
+}
+#botonera_principal ul li a{
+	display: inline-block;
+		text-decoration: none;
+		color: #ffffff;
+	padding: 30px 10px;     /*el primero indica a los costados mientrax que el segundo arriba/abajo*/
+}
+ul li a:hover {background-color: rgb(128, 128, 128,0.3)}
+/* SECCION 1 */
+#inicio{
+	background-color: #000000;
+	height:323px;
+
+}
+#imagen1{
+	height: 323px;
+	width: 350px;
+	float: left;
+	background-image:url(imagenes_proyecto/img1.jpg);
+	background-size: cover; 
+}
+#texto1{
+	height: 323px;
+	width: 600px;
+	float: right;
+	background-color: rgb(128, 128, 128,0);
+	padding: 10px;
+	box-sizing: border-box;
+	color: #ffffff;
+
+}
+#texto1 h2{
+	font-size: 20px;
+}
+/* SECCION 2 */
+#conozcanos{
+	background-color: #000000;
+	height: 350px;
+}
+#texto2{
+	height: 350px;
+	width: 400px;
+	float: left;
+	background-color: rgb(128, 128, 128,0);
+	color: #ffffff;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+.lenguajes{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tamaño{
+	font-size: 14px;
+
+}
+#imagen2{
+	height: 350px;
+	width: 500px;
+	float: right;
+	background-color: #000000;
+	background-image:url(imagenes_proyecto/img2.jpg);
+	background-size: cover; 
+
+}
+/* SECCION 3 */
+#servicios{
+	background-color:rgb(89, 89, 89,0);
+	height: 409px; /*350*/
+
+}
+#servicio1{height: 409px;
+width: 470px;
+background-color: #000000;
+float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
+#servicio2{
+height: 409px;
+width: 470px;
+background-color: #000000;
+float: right;
+	padding: 10px;
+	box-sizing: border-box;
+}
+h3{
+	color: #ffffff;
+	text-align: center;
+}
+.img_detalle{
+	height: 60%;
+	margin-left: 50px;
+
+
+}
+.img_detalle2{
+    height: 60%;
+	margin-left: 20px;
+}
+/* SECCION 4 */
+#otros{
+	background-color: #000000;
+	height: 180px;
+
+}
+.texto3{
+	padding: 20px;
+	box-sizing: border-box;
+}
+#botonera_lenguajes ul,#botonera_social ul{	margin:0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+
+}
+#botonera_lenguajes ul li,#botonera_social ul li{
+	display: inline;
+	}
+#botonera_lenguajes ul li a,#botonera_social ul li a{
+		display: inline-block;
+		text-decoration: none;
+		color: #ffffff;
+	padding: 30px 10px;
+}
+
+#contactos ul{
+padding: 45px;
+margin-top: 10px;
+margin-left: 22px;
+	list-style-type: none;
+}
+#contactos ul li{
+	display: inline;
+}
+
+footer{
+	background-color: #000000;
+	height:160px;
+
+}
+#contactos{
+	float: left;
+	background-color: rgb(89, 89, 89,0);
+	height: 150px;
+	width: 300px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.color{
+	color:rgb(89, 89, 89,0.8); 
+}
+
+#buscanos_en_redes{
+	height: 160px;
+	width: 320px;
+    float: left;
+    margin-left: 20px;
+    background-color:rgb(89, 89, 89,0) ;
+
+
+}
+.imagen_redes{
+	height: 100%;
+	margin-left: 60px;
+}
+
+#botonera_social{
+	height: 150px;
+	width: 300px;
+	background-color: rgb(89, 89, 89,0);
+    float: right;
+
+}
+.mod{
+	padding: 5px;
+}
+.mod1{
+	margin-left: 20px;
+}
+ /*-----------------------------------------------FIN DE CSS BASE--------------------------------------------------------------*/
+
+@media all and (min-width: 660px) and (max-width: 1023px) {
+
+header,section,footer{ 
+	width: 90%;
+}
+#nombre_de_marca{
+	width: 250px;
+	padding: 10px;
+	
+}
+#titulo_marca{
+	font-size: x-large;
+	margin-top: 10px;
+	
+}
+
+#botonera_principal{
+	width: 300px;
+}
+#botonera_principal ul li a{
+	padding: 30px 5px;     /*el primero indica a los costados mientrax que el segundo arriba/abajo*/
+}
+
+/* SECCION 1 */
+#inicio{
+	height: 325px;
+	
+
+}
+#imagen1{
+width: 50%;
+height: 100%;
+
+background-image: url(imagenes_proyecto/img1.jpg);
+background-size: cover;
+/*
+background-repeat: no-repeat;
+background-position: left bottom;*/
+
+}
+#texto1{
+	height: 100%;
+	width: 50%;
+}
+.tamaño{
+	font-size: 11px;
+}
+/* SECCION 2 */
+#conozcanos{
+	height: 270px;
+}
+#texto2{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+#imagen2{
+	height: 100%;
+	width: 50%;
+	background-image:url(imagenes_proyecto/img2.jpg);
+	background-size: cover;
+
+
+}
+/* SECCION 3 */
+#servicios{
+	height: 180px;
+
+}
+#servicio1,#servicio2{height: 100%;
+width: 50%;
+
+}
+
+.img_detalle,.img_detalle2,#buscanos_en_redes{
+display: none;
+}
+
+/* SECCION 4 */
+#otros{
+	height: 130px;
+
+}
+.texto3{
+	padding: 10px;
+}
+footer{
+	height: 100px;
+}
+
+#botonera_lenguajes ul li,#botonera_social ul li{
+	display: inline;
+	}
+
+#botonera_lenguajes ul li a,#botonera_social ul li a{
+	padding: 10px 7px;
+}
+#botonera_social,#contactos{
+	width: 250px;
+}
+
+
+#contactos ul{
+	padding: 20px;
+	list-style-type: none;
+}
+#contactos ul li a{
+	padding: 0;
+}
+
+                  /*adentro coloco todo lo que quiero que adapte o modifique cuadno el usuario entra desde un dispositivo de entre600px y 1039px*/
+                                      /*lo que vaya eliminando,no se modifica,es decir,solo dejo la propiedades que quiero modificar*/
+	} /*usar bien los espacio porque si no no tome bien los comandos porque es una propiedad nueva*/
+ /*                                                 */
+ @media all and (min-width:600px) and (max-width:559px){
+	 .tamaño{
+		 font-size: large;
+	 }
+
+
+
+ } 
+ 
+/*                                                 */
+
+/*---------------------------------------FIN DE MEDIA DE 600 A 1023---------------------------------------------------*/
+
+@media all and (max-width: 599px){
+header,section,footer{ 
+	width: 90%;
+}
+ #imagen_principal{
+ 	height: 200px;
+	 background-image: url(imagenes_proyecto/img_principal.jpg);
+	 background-size: cover;	 
+}
+header{
+	height: 90px;
+	position: relative;    /*utilizo esta propiedad para que la cabecera se mueva a medida que bajo en la pagina*/
+             /*utilizo top cero para que se mantenga pegado al borde superiro de pantalla*/
+} 
+
+#nombre_de_marca{
+	height: 100%;
+	width: 40%;
+
+}
+#titulo_marca{
+	font-size: larger;
+}
+
+
+
+#botonera_principal{
+
+	height: 100%;
+	width: 30%;
+
+
+}
+
+
+#botonera_principal ul li{
+	display: block;
+	background-color: #000000;
+	color: #000000;
+}
+#botonera_principal ul li a{
+	width: 100%;
+	text-align: center;
+	padding: 18px 0px; }    /*el primero indica a los costados mientrax que el segundo arriba/abajo*/
+
+
+/* SECCION 1 */
+
+#inicio{
+	height: 300px;
+	
+}
+
+#texto1{
+	width: 60%;
+	height: 100%;
+}
+.tamaño{
+	font-size: 8.5px;
+}
+#imagen1{
+	width: 40%;
+	height: 100%;
+	background-image:url(imagenes_proyecto/prueba.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+/* SECCION 2 */
+
+#conozcanos{
+	height: 280px;
+}
+#texto2{
+	height: 100%;
+	width: 40%;
+	padding: 1px;
+}
+#texto2 h2{
+	font-size: large;
+}
+
+#imagen2{
+width: 60%;
+height: 100%;
+background-image:url(imagenes_proyecto/img2.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-position-y: center;
+}
+/* SECCION 3 */
+#servicios{
+	height: 150px;
+}
+
+#servicio1,#servicio2{height: 100%;
+width: 50%;	
+}
+.tamaño2{
+	font-size: 10px;
+}
+h3{
+	font-size: 14px;
+}
+
+.img_detalle{
+display: none;
+
+
+}
+.img_detalle2{
+display: none;
+}
+/* SECCION 4 */
+
+.texto3{
+	padding: 10px;
+	font-size: 12px;
+
+}
+
+#botonera_social ul li a{
+	display: inline-block;
+	
+}
+#botonera_lenguajes ul{
+	padding:2px;
+	margin:7px;
+}
+
+#botonera_lenguajes ul li{
+padding: 0px ;
+font-size: 12px;
+
+
+
+}
+#botonera_lenguajes ul li a{
+	column-count: 2;
+column-width: 42px;
+
+padding: 7px;
+}
+
+footer{
+	height: 120px;
+}
+#contactos{
+	height: auto;
+	width: 50%;
+
+}
+#contactos ul{
+padding: 10px;
+height: auto;
+width: 100px;
+}
+#buscanos_en_redes{
+display: none;
+}
+.imagen_redes{
+display: none;}
+
+#botonera_social{
+	height: auto;
+	width: 50%;
+}
+}

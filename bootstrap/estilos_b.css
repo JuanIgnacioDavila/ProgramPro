@@ -1,0 +1,51 @@
+#elementos{
+	height: 600px;
+	background-color: #000099;
+}
+h2{
+	color: #ffffff;
+}
+form{
+	margin-bottom: 5px;
+}
+
+#color_b{
+	color: #ffffff;
+}
+#modulo_elem{
+	height: 600px;
+	background-color: #ffcccc;
+}
+#elemento_1{
+background-color: #000000;
+}
+
+#elemento_2{
+background-color: #4d0000;
+}
+#contenido{
+	height: 600px;
+	background-color: #000099;
+}
+#modulo_contenido{
+	height: 600px;
+	background-color: #ffcccc;
+}
+#con_1{
+background-color: #ff99ff;
+}
+#con_2{
+	background-color: #ff33ff;
+}
+#con_3{
+	background-color: #660066;
+}
+
+@media all and (max-width: 750px){
+	#imagen_ub{
+		display: none;
+	}
+	#elemento_2{
+		display: none;
+	}
+}
